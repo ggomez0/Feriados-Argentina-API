@@ -19,8 +19,8 @@ with open(data_2024_json_path, 'r') as data_2024_file:
     data_2024 = json.load(data_2024_file)
 
 # Función para obtener la información combinada
-def obtener_eventos_combinados():
-    eventos_combinados = []
+def obtener_feriados():
+    feriados_combinados = []
 
     # Iterar sobre los datos de 2024.json y combinar con la información de ref.json
     for mes_info in data_2024:
@@ -31,7 +31,7 @@ def obtener_eventos_combinados():
                 if isinstance(evento_keys, list):
                     for evento_key in evento_keys:
                         evento = ref_data[evento_key]
-                        eventos_combinados.append({
+                        feriados_combinados.append({
                             'motivo': evento['motivo'],
                             'tipo': evento['tipo'],
                             'info': evento['info'],
@@ -44,7 +44,7 @@ def obtener_eventos_combinados():
                     dias = [int(d) for d in dia.split(',')]
                     for d in dias:
                         evento = ref_data[evento_keys]
-                        eventos_combinados.append({
+                        feriados_combinados.append({
                             'motivo': evento['motivo'],
                             'tipo': evento['tipo'],
                             'info': evento['info'],
@@ -53,14 +53,14 @@ def obtener_eventos_combinados():
                             'id': evento_keys
                         })
 
-    return eventos_combinados
+    return feriados_combinados
 
 
 # Ruta para obtener la información combinada como una API
 @app.route('/', methods=['GET'])
-def obtener_api_eventos_combinados():
-    eventos_combinados = obtener_eventos_combinados()
-    return jsonify({'Feriados': eventos_combinados})
+def obtener_api_feriados_combinados():
+    feriados_combinados = obtener_feriados()
+    return jsonify({'Feriados': feriados_combinados})
 
 if __name__ == '__main__':
     app.run(debug=True)
