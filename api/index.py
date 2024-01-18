@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, jsonify
 import os
 import json
@@ -52,9 +53,7 @@ def obtener_feriados():
                             'mes': mes,
                             'id': evento_keys
                         })
-
     return feriados_combinados
-
 
 # Ruta para obtener la información combinada como una API
 @app.route('/', methods=['GET'])
