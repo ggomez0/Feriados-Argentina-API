@@ -4,11 +4,18 @@ import json
 
 app = Flask(__name__)
 
-# Cargar datos desde los archivos JSON con rutas específicas
-with open('data/ref.json', 'r') as ref_file:
+# Obtener la ruta del directorio actual
+current_directory = os.path.dirname(os.path.realpath(__file__))
+
+# Construir la ruta completa a los archivos JSON
+ref_json_path = os.path.join(current_directory, 'data', 'ref.json')
+data_2024_json_path = os.path.join(current_directory, 'data', '2024.json')
+
+# Cargar datos desde los archivos JSON
+with open(ref_json_path, 'r') as ref_file:
     ref_data = json.load(ref_file)
 
-with open('data/2024.json', 'r') as data_2024_file:
+with open(data_2024_json_path, 'r') as data_2024_file:
     data_2024 = json.load(data_2024_file)
 
 # Función para obtener la información combinada
@@ -19,37 +26,41 @@ def obtener_eventos_combinados():
     for mes_info in data_2024:
         mes = mes_info['mes']
 
-        for dia, evento_key in mes_info.items():
+        for dia, evento_keys in mes_info.items():
             if dia != 'mes':
-                if isinstance(evento_key, list):
-                    for subevento in evento_key:
-                        evento = ref_data[subevento]
+                if isinstance(evento_keys, list):
+                    for evento_key in evento_keys:
+                        evento = ref_data[evento_key]
                         eventos_combinados.append({
                             'motivo': evento['motivo'],
                             'tipo': evento['tipo'],
                             'info': evento['info'],
                             'dia': int(dia),
                             'mes': mes,
-                            'id': subevento
+                            'id': evento_key
                         })
                 else:
-                    evento = ref_data[evento_key]
-                    eventos_combinados.append({
-                        'motivo': evento['motivo'],
-                        'tipo': evento['tipo'],
-                        'info': evento['info'],
-                        'dia': int(dia),
-                        'mes': mes,
-                        'id': evento_key
-                    })
+                    # Manejar múltiples días en una cadena
+                    dias = [int(d) for d in dia.split(',')]
+                    for d in dias:
+                        evento = ref_data[evento_keys]
+                        eventos_combinados.append({
+                            'motivo': evento['motivo'],
+                            'tipo': evento['tipo'],
+                            'info': evento['info'],
+                            'dia': d,
+                            'mes': mes,
+                            'id': evento_keys
+                        })
 
     return eventos_combinados
+
 
 # Ruta para obtener la información combinada como una API
 @app.route('/', methods=['GET'])
 def obtener_api_eventos_combinados():
     eventos_combinados = obtener_eventos_combinados()
-    return jsonify({'eventos_combinados': eventos_combinados})
+    return jsonify({'Feriados': eventos_combinados})
 
 if __name__ == '__main__':
     app.run(debug=True)
