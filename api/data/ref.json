@@ -2,49 +2,49 @@
   "año-nuevo": {
     "motivo": "Año Nuevo",
     "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/A%C3%B1o_Nuevo"
+    "info": "https://es.wikipedia.org/wiki/Año_Nuevo"
   },
   "memoria-verdad-justicia": {
     "motivo": "Día Nacional de la Memoria por la Verdad y la Justicia",
     "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia"
+    "info": "https://es.wikipedia.org/wiki/Día_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia"
   },
   "veteranos-malvinas": {
     "motivo": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
     "tipo": "inamovible",
-    "info":  "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas"
+    "info":  "https://es.wikipedia.org/wiki/Día_del_Veterano_y_de_los_Caídos_en_la_Guerra_de_Malvinas"
   },
   "armenia": {
     "motivo": "Día de acción por la tolerancia y el respeto entre los pueblos",
     "tipo": "nolaborable",
     "opcional": "origen",
     "origen": "armenia",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_de_conmemoraci%C3%B3n_del_genocidio_armenio"
+    "info": "https://es.wikipedia.org/wiki/Día_de_conmemoración_del_genocidio_armenio"
   },
   "trabajador": {
     "motivo": "Día del Trabajador",
     "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores"
+    "info": "https://es.wikipedia.org/wiki/Día_Internacional_de_los_Trabajadores"
   },
   "revolucion-mayo": {
     "motivo": "Día de la Revolución de Mayo",
   	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo"
+    "info": "https://es.wikipedia.org/wiki/Revolución_de_Mayo"
   },
   "belgrano": {
     "motivo": "Paso a la Inmortalidad del General Manuel Belgrano",
   	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Bandera_(Argentina)"
+    "info": "https://es.wikipedia.org/wiki/Día_de_la_Bandera_(Argentina)"
   },
   "independencia": {
     "motivo": "Día de la Independencia",
   	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_independencia_de_la_Argentina"
+    "info": "https://es.wikipedia.org/wiki/Declaración_de_independencia_de_la_Argentina"
   },
   "inmaculada-maria": {
     "motivo": "Inmaculada Concepción de María",
     "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Inmaculada_Concepci%C3%B3n"
+    "info": "https://es.wikipedia.org/wiki/Inmaculada_Concepción"
   },
   "navidad": {
     "motivo": "Navidad",
@@ -78,20 +78,20 @@
   	"tipo": "nolaborable",
   	"opcional": "religion",
   	"religion": "judaísmo",
-    "info": "https://es.wikipedia.org/wiki/P%C3%A9saj"
+    "info": "https://es.wikipedia.org/wiki/Pésaj"
   },
   "san-martin": {
     "motivo": "Paso a la Inmortalidad del General José de San Martín",
   	"tipo": "trasladable",
   	"original": "17-08",
-    "info": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn"
+    "info": "https://es.wikipedia.org/wiki/José_de_San_Martín"
   },
   "año-nuevo-judio": {
     "motivo": "Año Nuevo Judío",
   	"tipo": "nolaborable",
     "opcional": "religion",
   	"religion": "judaísmo",
-    "info": "https://es.wikipedia.org/wiki/Rosh_Hashan%C3%A1"
+    "info": "https://es.wikipedia.org/wiki/Rosh_Hashaná"
   },
   "dia-perdon-judio": {
     "motivo": "Día del Perdón",
@@ -104,28 +104,28 @@
     "motivo": "Día del Respeto a la Diversidad Cultural",
   	"tipo": "trasladable",
     "original": "12-10",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)"
+    "info": "https://es.wikipedia.org/wiki/Día_del_Respeto_a_la_Diversidad_Cultural_(Argentina)"
   },
   "soberania-nacional": {
     "motivo": "Día de la Soberanía Nacional",
   	"tipo": "trasladable",
     "original": "20-11",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Soberan%C3%ADa_Nacional"
+    "info": "https://es.wikipedia.org/wiki/Día_de_la_Soberanía_Nacional"
   },
   "bicentenario-bandera": {
     "motivo": "Día del Bicentenario de la Creación y Primera Jura de la Bandera Argentina",
   	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Bandera_(Argentina)"
+    "info": "https://es.wikipedia.org/wiki/Día_de_la_Bandera_(Argentina)"
   },
   "bicentenario-tucuman": {
     "motivo": "Bicentenario de la Batalla de Tucumán",
   	"tipo": "nolaborable",
-    "info": "https://es.wikipedia.org/wiki/Batalla_de_Tucum%C3%A1n"
+    "info": "https://es.wikipedia.org/wiki/Batalla_de_Tucumán"
   },
   "bicentenario-asamblea-gral": {
     "motivo": "Año del Bicentenario de la Asamblea General Constituyente de 1813",
   	"tipo": "nolaborable",
-    "info": "https://es.wikipedia.org/wiki/Asamblea_del_A%C3%B1o_XIII"
+    "info": "https://es.wikipedia.org/wiki/Asamblea_del_Año_XIII"
   },
   "bicentenario-salta": {
     "motivo": "Bicentenario de la Batalla de Salta",
@@ -136,7 +136,7 @@
     "motivo": "Paso a la Inmortalidad del Gral. Don Martín Güemes",
     "tipo": "trasladable",
   	"original": "17-06",
-    "info": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes"
+    "info": "https://es.wikipedia.org/wiki/Martín_Miguel_de_Gúemes"
   },
   "fiesta-ayuno-ramadan": {
     "motivo": "Fiesta de la Ruptura del Ayuno del Sagrado Mes de Ramadán",
@@ -157,6 +157,6 @@
     "tipo": "nolaborable",
     "opcional": "religion",
   	"religion": "musulman",
-    "info": "https://es.wikipedia.org/wiki/A%C3%B1o_nuevo_musulm%C3%A1n"
+    "info": "https://es.wikipedia.org/wiki/Año_nuevo_musulmán"
   }
 }
