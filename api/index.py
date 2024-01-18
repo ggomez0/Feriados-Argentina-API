@@ -1,8 +1,10 @@
 from flask import Flask, jsonify
+import os
+import json
 
 app = Flask(__name__)
 
-# Cargar datos desde los archivos JSON
+# Cargar datos desde los archivos JSON con rutas específicas
 with open('data/ref.json', 'r') as ref_file:
     ref_data = json.load(ref_file)
 
@@ -44,7 +46,7 @@ def obtener_eventos_combinados():
     return eventos_combinados
 
 # Ruta para obtener la información combinada como una API
-@app.route('/api/eventos_combinados', methods=['GET'])
+@app.route('/', methods=['GET'])
 def obtener_api_eventos_combinados():
     eventos_combinados = obtener_eventos_combinados()
     return jsonify({'eventos_combinados': eventos_combinados})
