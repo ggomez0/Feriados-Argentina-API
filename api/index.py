@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, jsonify
-#from flask_cors import CORS, cross_origin
 import os
 import json
 
 app = Flask(__name__)
-#CORS(app)
-#CORS(app, resources={r"/*":{"origins":"*"}})
 
 # Obtener la ruta del directorio actual
 current_directory = os.path.dirname(os.path.realpath(__file__))
@@ -14,6 +11,22 @@ current_directory = os.path.dirname(os.path.realpath(__file__))
 # Construir la ruta completa a los archivos JSON
 ref_json_path = os.path.join(current_directory, 'data', 'ref.json')
 data_2024_json_path = os.path.join(current_directory, 'data', '2024.json')
+
+# Diccionario de mapeo de meses
+meses_mapping = {
+    "enero": 1,
+    "febrero": 2,
+    "marzo": 3,
+    "abril": 4,
+    "mayo": 5,
+    "junio": 6,
+    "julio": 7,
+    "agosto": 8,
+    "septiembre": 9,
+    "octubre": 10,
+    "noviembre": 11,
+    "diciembre": 12
+}
 
 # Cargar datos desde los archivos JSON
 with open(ref_json_path, 'r') as ref_file:
@@ -28,7 +41,7 @@ def obtener_feriados():
 
     # Iterar sobre los datos de 2024.json y combinar con la información de ref.json
     for mes_info in data_2024:
-        mes = mes_info['mes']
+        mes = meses_mapping[mes_info['mes'].lower()]
 
         for dia, evento_keys in mes_info.items():
             if dia != 'mes':
@@ -59,7 +72,6 @@ def obtener_feriados():
     return feriados_combinados
 
 # Ruta para obtener la información combinada como una API
-#@cross_origin
 @app.route('/', methods=['GET'])
 def obtener_api_feriados_combinados():
     feriados_combinados = obtener_feriados()
