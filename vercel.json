@@ -2,14 +2,15 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
-  "routes": [
+  "headers": [
     {
-      "src": "/",
-      "methods": ["GET"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "source": "/",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
     }
   ]
 }
-
