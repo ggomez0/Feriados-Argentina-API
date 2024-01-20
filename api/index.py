@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, jsonify
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import os
 import json
 
@@ -58,6 +58,7 @@ def obtener_feriados():
     return feriados_combinados
 
 # Ruta para obtener la información combinada como una API
+@cross_origin
 @app.route('/', methods=['GET'])
 def obtener_api_feriados_combinados():
     feriados_combinados = obtener_feriados()
