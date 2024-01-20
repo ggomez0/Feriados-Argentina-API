@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 #CORS(app)
-CORS(app, resources={r"/*":{"origins":"https://argentinaferiados-api.vercel.app/"}})
+CORS(app, resources={r"/*":{"origins":"*"}})
 
 # Obtener la ruta del directorio actual
 current_directory = os.path.dirname(os.path.realpath(__file__))
