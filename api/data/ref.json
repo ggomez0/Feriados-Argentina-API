@@ -1,162 +1,47 @@
 {
-  "anio-nuevo": {
-    "motivo": "Anio Nuevo",
-    "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Ano_Nuevo"
+  "Año nuevo": {
+    "url": "https://es.wikipedia.org/wiki/A%C3%B1o_nuevo"
   },
-  "memoria-verdad-justicia": {
-    "motivo": "Dia Nacional de la Memoria por la Verdad y la Justicia",
-    "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Dia_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia"
+  "Carnaval": {
+    "url": "https://es.wikipedia.org/wiki/Carnaval"
   },
-  "veteranos-malvinas": {
-    "motivo": "Dia del Veterano y de los Caidos en la Guerra de Malvinas",
-    "tipo": "inamovible",
-    "info":  "https://es.wikipedia.org/wiki/Dia_del_Veterano_y_de_los_Caidos_en_la_Guerra_de_Malvinas"
+  "Día Nacional de la Memoria por la Verdad y la Justicia": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia"
   },
-  "armenia": {
-    "motivo": "Dia de accion por la tolerancia y el respeto entre los pueblos",
-    "tipo": "nolaborable",
-    "opcional": "origen",
-    "origen": "armenia",
-    "info": "https://es.wikipedia.org/wiki/Dia_de_conmemoracion_del_genocidio_armenio"
+  "Día del Veterano y de los Caídos en la Guerra de Malvinas": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas"
   },
-  "trabajador": {
-    "motivo": "Dia del Trabajador",
-    "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Dia_Internacional_de_los_Trabajadores"
+  "Viernes Santo": {
+    "url": "https://es.wikipedia.org/wiki/Viernes_Santo"
   },
-  "revolucion-mayo": {
-    "motivo": "Dia de la Revolucion de Mayo",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Revolucion_de_Mayo"
+  "Día del Trabajador": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Trabajador"
   },
-  "belgrano": {
-    "motivo": "Paso a la Inmortalidad del General Manuel Belgrano",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Dia_de_la_Bandera_(Argentina)"
+  "Día de la Revolución de Mayo": {
+    "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo"
   },
-  "independencia": {
-    "motivo": "Dia de la Independencia",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Declaracion_de_independencia_de_la_Argentina"
+  "Paso a la Inmortalidad del General Martín Güemes": {
+    "url": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes"
   },
-  "inmaculada-maria": {
-    "motivo": "Inmaculada Concepcion de Maria",
-    "tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Inmaculada_Concepcion"
+  "Paso a la Inmortalidad del General Manuel Belgrano": {
+    "url": "https://es.wikipedia.org/wiki/Manuel_Belgrano"
   },
-  "navidad": {
-    "motivo": "Navidad",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Navidad"
+  "Día de la Independencia": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Independencia_(Argentina)"
   },
-  "carnaval": {
-    "motivo": "Carnaval",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Carnaval"
+  "Paso a la Inmortalidad del Gral. José de San Martín": {
+    "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn"
   },
-  "puente-turistico": {
-    "motivo": "Feriado Puente Turistico",
-  	"tipo": "puente",
-    "info": "https://es.wikipedia.org/wiki/Puente_festivo"
+  "Día del Respeto a la Diversidad Cultural": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)"
   },
-  "jueves-santo": {
-    "motivo": "Jueves Santo Festividad Cristiana",
-  	"tipo": "nolaborable",
-    "opcional": "religion",
-    "religion": "cristianismo",
-    "info": "https://es.wikipedia.org/wiki/Jueves_Santo"
+  "Día de la Soberanía Nacional": {
+    "url": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Soberan%C3%ADa_Nacional"
   },
-  "viernes-santo": {
-    "motivo": "Viernes Santo Festividad Cristiana",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Viernes_Santo"
+  "Día de la Inmaculada Concepción de María": {
+    "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/50814-dia-de-la-inmaculada-concepcion-de-la-virgen-maria"
   },
-  "pascuas-judias": {
-  	"motivo": "Pascuas Judias",
-  	"tipo": "nolaborable",
-  	"opcional": "religion",
-  	"religion": "judaismo",
-    "info": "https://es.wikipedia.org/wiki/Pesaj"
-  },
-  "san-martin": {
-    "motivo": "Paso a la Inmortalidad del General Jose de San Martin",
-  	"tipo": "trasladable",
-  	"original": "17-08",
-    "info": "https://es.wikipedia.org/wiki/Jose_de_San_Martin"
-  },
-  "año-nuevo-judio": {
-    "motivo": "Año Nuevo Judio",
-  	"tipo": "nolaborable",
-    "opcional": "religion",
-  	"religion": "judaismo",
-    "info": "https://es.wikipedia.org/wiki/Rosh_Hashana"
-  },
-  "dia-perdon-judio": {
-    "motivo": "Dia del Perdon",
-  	"tipo": "nolaborable",
-    "opcional": "religion",
-  	"religion": "judaismo",
-    "info": "https://es.wikipedia.org/wiki/Yom_Kipur"
-  },
-  "diversidad": {
-    "motivo": "Dia del Respeto a la Diversidad Cultural",
-  	"tipo": "trasladable",
-    "original": "12-10",
-    "info": "https://es.wikipedia.org/wiki/Dia_del_Respeto_a_la_Diversidad_Cultural_(Argentina)"
-  },
-  "soberania-nacional": {
-    "motivo": "Dia de la Soberania Nacional",
-  	"tipo": "trasladable",
-    "original": "20-11",
-    "info": "https://es.wikipedia.org/wiki/Dia_de_la_Soberania_Nacional"
-  },
-  "bicentenario-bandera": {
-    "motivo": "Dia del Bicentenario de la Creacion y Primera Jura de la Bandera Argentina",
-  	"tipo": "inamovible",
-    "info": "https://es.wikipedia.org/wiki/Dia_de_la_Bandera_(Argentina)"
-  },
-  "bicentenario-tucuman": {
-    "motivo": "Bicentenario de la Batalla de Tucuman",
-  	"tipo": "nolaborable",
-    "info": "https://es.wikipedia.org/wiki/Batalla_de_Tucuman"
-  },
-  "bicentenario-asamblea-gral": {
-    "motivo": "Año del Bicentenario de la Asamblea General Constituyente de 1813",
-  	"tipo": "nolaborable",
-    "info": "https://es.wikipedia.org/wiki/Asamblea_del_Año_XIII"
-  },
-  "bicentenario-salta": {
-    "motivo": "Bicentenario de la Batalla de Salta",
-  	"tipo": "nolaborable",
-    "info": "https://es.wikipedia.org/wiki/Batalla_de_Salta"
-  },
-  "martin-guemes": {
-    "motivo": "Paso a la Inmortalidad del Gral. Don Martin Guemes",
-    "tipo": "trasladable",
-  	"original": "17-06",
-    "info": "https://es.wikipedia.org/wiki/Martin_Miguel_de_Guemes"
-  },
-  "fiesta-ayuno-ramadan": {
-    "motivo": "Fiesta de la Ruptura del Ayuno del Sagrado Mes de Ramadan",
-    "tipo": "nolaborable",
-    "opcional": "religion",
-  	"religion": "musulman",
-    "info": "https://es.wikipedia.org/wiki/Eid_al-Fitr"
-  },
-  "fiesta-sacrificio": {
-    "motivo": "Fiesta del Sacrificio",
-    "tipo": "nolaborable",
-    "opcional": "religion",
-  	"religion": "musulman",
-    "info": "https://es.wikipedia.org/wiki/Eid_al-Adha"
-  },
-  "año-nuevo-islamico": {
-    "motivo": "Año Nuevo Islamico",
-    "tipo": "nolaborable",
-    "opcional": "religion",
-  	"religion": "musulman",
-    "info": "https://es.wikipedia.org/wiki/Año_nuevo_musulman"
+  "Navidad": {
+    "url": "https://es.wikipedia.org/wiki/Navidad"
   }
 }
