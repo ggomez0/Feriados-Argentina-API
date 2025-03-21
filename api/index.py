@@ -1,8 +1,21 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request, make_response
 import os
 import json
 
 app = Flask(__name__)
+
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+    return response
+
+app.after_request(add_cors_headers)
+
+@app.route('/<path:path>', methods=['OPTIONS'])
+def handle_options(path):
+    response = make_response()
+    return response
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
 
