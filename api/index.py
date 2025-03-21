@@ -4,6 +4,8 @@ import json
 
 app = Flask(__name__)
 
+current_directory = os.path.dirname(os.path.realpath(__file__))
+
 @app.route('/')
 def index():
     return 'Feriados Argentina API, use /<int:year> por ejemplo /2025 para obtener los feriados', 200
@@ -19,5 +21,4 @@ def API(year):
         return jsonify({'error': 'No se encontraron feriados para el año proporcionado'}), 404
 
 if __name__ == '__main__':
-    current_directory = os.path.dirname(os.path.realpath(__file__))
     app.run(debug=True)
