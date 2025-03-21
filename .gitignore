@@ -11,3 +11,7 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+
+node_modules
+package-lock.json
+package.json
