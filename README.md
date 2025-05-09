@@ -1,5 +1,7 @@
 # Feriados Argentina :argentina: - API
 ![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=argentinaferiados-api&style=for-the-badge)
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ggomez0/Feriados-Argentina-API)
 ## Descripción
 
 Este proyecto proporciona una API que muestra los feriados en Argentina en formato JSON.
