@@ -1,0 +1,116 @@
+[
+  {
+    "fecha": "2026-01-01",
+    "tipo": "inamovible",
+    "nombre": "Año nuevo",
+    "info": "https://es.wikipedia.org/wiki/A%C3%B1o_nuevo"
+  },
+  {
+    "fecha": "2026-02-16",
+    "tipo": "inamovible",
+    "nombre": "Carnaval",
+    "info": "https://es.wikipedia.org/wiki/Carnaval"
+  },
+  {
+    "fecha": "2026-02-17",
+    "tipo": "inamovible",
+    "nombre": "Carnaval",
+    "info": "https://es.wikipedia.org/wiki/Carnaval"
+  },
+  {
+    "fecha": "2026-03-23",
+    "tipo": "puente",
+    "nombre": "Puente turístico no laborable",
+    "info": ""
+  },
+  {
+    "fecha": "2026-03-24",
+    "tipo": "inamovible",
+    "nombre": "Día Nacional de la Memoria por la Verdad y la Justicia",
+    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia"
+  },
+  {
+    "fecha": "2026-04-02",
+    "tipo": "inamovible",
+    "nombre": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas"
+  },
+  {
+    "fecha": "2026-04-03",
+    "tipo": "inamovible",
+    "nombre": "Viernes Santo",
+    "info": "https://es.wikipedia.org/wiki/Viernes_Santo"
+  },
+  {
+    "fecha": "2026-05-01",
+    "tipo": "inamovible",
+    "nombre": "Día del Trabajador",
+    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Trabajador"
+  },
+  {
+    "fecha": "2026-05-25",
+    "tipo": "inamovible",
+    "nombre": "Día de la Revolución de Mayo",
+    "info": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo"
+  },
+  {
+    "fecha": "2026-06-15",
+    "tipo": "trasladable",
+    "nombre": "Paso a la Inmortalidad del General Martín Güemes (17/6)",
+    "info": ""
+  },
+  {
+    "fecha": "2026-06-20",
+    "tipo": "inamovible",
+    "nombre": "Paso a la Inmortalidad del General Manuel Belgrano",
+    "info": "https://es.wikipedia.org/wiki/Manuel_Belgrano"
+  },
+  {
+    "fecha": "2026-07-09",
+    "tipo": "inamovible",
+    "nombre": "Día de la Independencia",
+    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Independencia_(Argentina)"
+  },
+  {
+    "fecha": "2026-07-10",
+    "tipo": "puente",
+    "nombre": "Puente turístico no laborable",
+    "info": ""
+  },
+  {
+    "fecha": "2026-08-17",
+    "tipo": "trasladable",
+    "nombre": "Paso a la Inmortalidad del Gral. José de San Martín",
+    "info": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn"
+  },
+  {
+    "fecha": "2026-10-12",
+    "tipo": "trasladable",
+    "nombre": "Día del Respeto a la Diversidad Cultural",
+    "info": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "trasladable",
+    "nombre": "Día de la Soberanía Nacional (20/11)",
+    "info": ""
+  },
+  {
+    "fecha": "2026-12-07",
+    "tipo": "puente",
+    "nombre": "Puente turístico no laborable",
+    "info": ""
+  },
+  {
+    "fecha": "2026-12-08",
+    "tipo": "inamovible",
+    "nombre": "Día de la Inmaculada Concepción de María",
+    "info": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/50814-dia-de-la-inmaculada-concepcion-de-la-virgen-maria"
+  },
+  {
+    "fecha": "2026-12-25",
+    "tipo": "inamovible",
+    "nombre": "Navidad",
+    "info": "https://es.wikipedia.org/wiki/Navidad"
+  }
+]
